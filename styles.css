@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    background-color: hsl(216, 75%, 2.55%);
+    }
+#background {
+    background-color: hsl(216, 75%, 2.55%);
+    transform: translate(0, -165px);
+    height:100%;
+}
+
+#fontImage {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#monkeyImg {
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+    margin: 0;
+    transform: translate(0, -30px);
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2.8125em;
+    margin: 1% auto;
+    color: rgb(230,200,23);
+}
+    
+hr {
+    margin-left:1.5%;
+    margin-right:1.5%;
+    background-color: #653B23;
+    border-color:#653B23;
+}
+    
+label {
+    font-size:1.5em;
+    font-family: monospace;
+    color: #06051D;
+}
+    
+    
+#survey-form {
+    background-color: hsla(42, 82%, 38%, 0.6);
+    background: linear-gradient(90deg, hsla(42, 82%, 38%, 0.6),hsla(42, 82%, 45%, 1), hsla(42, 82%, 38%, 0.6));
+    margin: 0 auto; 
+    width: 60%;
+    border-radius: 1.5em;
+    padding: 1%;
+    padding-top:2em;  
+    box-shadow: 0 0 0.5em hsl(47, 80%, 55%);
+}
+    
+.d3tails {
+    display: block;
+    width:60%;
+    height: 2rem;
+    font-size:0.7em;
+    background-color: hsl(244, 70%, 2%);
+    border-radius: 0.45em;
+    color: rgb(210,210,210);
+    margin: auto;
+    box-shadow: 0 0 1em 0.15em black;
+}
+.detailsLabel {
+    display: block;
+    text-align: center;
+}
+fieldset {
+      border-bottom: none;
+      border-left: none;
+    border-right: none;
+    margin: 0 2.5% 0 2.5%;
+    border-color:#653B23;  
+}
+    
+.conquerorquestion {
+    font-size: 1.3em;
+    text-align:center;
+    color: #09072C;
+}
+.monkeyconquerorbutton {
+    font-size:1.2em; 
+}
+
+.monkeyconquerorbuttonC {
+    display: block;
+    margin: 2% 2.5% 2.5% 2%;
+    font-size:1.2em;
+    border: 1px ridge  black;
+    border-width: 1px 0;
+}
+    
+p {
+    
+    color: black;
+}
+#other {
+    text-indent: 0.625em;
+}
+.question3textarea {
+    width: 65%;
+    height: 5em; 
+    resize:vertical;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    background-color: #03030D;
+    color: white;
+}
+    
+.monkeselect {
+    display:block;
+    height: 1.5em;
+    width: 45%;
+    font-size: 1.25em;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(225,225,225);
+    border-radius:0.2em;
+}
+    
+.submitButton  {
+    display:block;
+    padding: 1%; 
+    border: 0px hidden black;
+    font-size:1.5em;
+    border-radius:1rem;
+    background-image: linear-gradient(180deg,rgb(90,15,15),hsl(0, 72%, 45%),rgb(90,15,15));
+    border: none;
+    box-shadow: 0 0 0.3em 0.15em rgb(90,15,15);
+    margin: 1em auto 0.3em auto;
+    width: 60%;
+    height: 10%;
+}
+.submitButton:hover{
+    filter: brightness(80%)
+}
+.submitButtonText {
+    color: hsl(51, 80%, 45%);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+    
+.radiodivs{
+    margin: auto ;
+}
+#specificMonkey {
+    background-color: #03030D;
+    color: white;
+    width: 7em;
+}
+
+@media(max-width: 800px){
+    .submitButton{
+        font-size: 0.9em;
+        overflow: hidden;
+    }
+    #survey-form{
+       
+        width: 75%;
+    }
+    .monkeyconquerorbuttonC{
+        font-size: 1.1em;
+    }
+    .monkeselect{
+        width: 50%
+    }
+    
+}
+@media(max-width: 550px){
+    .monkeyconquerorbuttonC{
+        font-size: 0.95em;
+    }
+    #survey-form{
+        width: 90%;
+    }
+    .monkeselect{
+        width: 65%
+    }
+}   
+    
+    
