@@ -16,7 +16,6 @@ body {
     height: 20em;
     object-fit: cover;
     margin: 0;
-    transform: translate(0, 0);
     object-position: 0 20%;
     display: none;
 }
